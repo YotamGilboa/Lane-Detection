@@ -203,7 +203,7 @@ def smooth_line(current_line, prev_line, alpha):
     return current_line
 
 # Create a VideoCapture object and read from the input file
-cap = cv2.VideoCapture('rtltr.mp4')
+cap = cv2.VideoCapture('videoName.mp4')    #Replace the videoName with the name of your video from the same repository
 
 #Define the codec and create VideoWriter object to save the video
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
